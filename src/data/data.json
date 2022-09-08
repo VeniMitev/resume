@@ -1,0 +1,107 @@
+{
+    "profile": {
+        "name": "Venelin Mitev",
+        "bio": "...",
+        "socials": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/VeniMitev",
+                "icon": ""
+            },
+            {
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/venelin-mitev/",
+                "icon": ""
+            },
+            {
+                "name": "instagram",
+                "link": "https://www.instagram.com/venelin_m",
+                "icon": ""
+            }
+        ],
+        "websites": [
+            {
+                "name": "photography",
+                "link": "venimitev.com"
+            },
+            {
+                "name": "videography",
+                "link": "venvisuals.productions"
+            },
+            {
+                "name": "webdev",
+                "link": "venimitev.dev"
+            }
+        ]
+    },
+    "workExperience": [
+        {
+            "company": "27estore",
+            "startYear": 2019,
+            "startMonth": "September",
+            "title": "",
+            "description": "",
+            "responsabilities": "",
+            "skills": ""
+        },
+        {
+            "company": "USbext Ltd.",
+            "startYear": 2016,
+            "startMonth": "November",
+            "endYear": 2019,
+            "endMonth": "May",
+            "title": "",
+            "description": "",
+            "responsabilities": "",
+            "skills": ""
+        }
+    ],
+    "volunteerExperience": [
+
+    ],
+    "education": [
+
+    ],
+    "skills": {
+        "webDev": [
+            {
+                "name": "HTML5",
+                "years": 6
+            },
+            {
+                "name": "CSS",
+                "years": 6
+            },
+            {
+                "name": "JavaScript",
+                "years": 2
+            },
+            {
+                "name": "React",
+                "years": 1
+            },
+            {
+                "name": "Magento 2",
+                "years": 5
+            }
+        ],
+        "creative": [
+            {
+                "name": "Photography",
+                "years": 12
+            },
+            {
+                "name": "Photo Editing",
+                "years": 12
+            },
+            {
+                "name": "Videography",
+                "years": 7
+            },
+            {
+                "name": "Video Editing",
+                "years": 7
+            }
+        ]
+    }
+}
