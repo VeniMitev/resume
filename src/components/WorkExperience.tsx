@@ -4,7 +4,7 @@ import Title from './subComponents/Title';
 
 const WorkExperience = () => {
     return (
-        <Card className='bg-purple-500'>
+        <Card className='h-screen'>
             <Title text='Work Experience' />
         </Card>
     )
