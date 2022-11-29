@@ -2,12 +2,12 @@ import React from "react";
 import Card from './subComponents/Card';
 import Title from './subComponents/Title';
 
-const WorkExperience = () => {
+const About = () => {
     return (
-        <Card className='bg-purple-500'>
-            <Title text='Work Experience' />
+        <Card className=''>
+            <Title text='About Me' />
         </Card>
     )
 }
 
-export default WorkExperience;
+export default About;
