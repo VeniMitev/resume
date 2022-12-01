@@ -4,7 +4,7 @@ import Title from './subComponents/Title';
 
 const About = () => {
     return (
-        <Card className='h-[50vh]'>
+        <Card className='snap-center h-[50vh]'>
             <Title text='About Me' />
         </Card>
     )
