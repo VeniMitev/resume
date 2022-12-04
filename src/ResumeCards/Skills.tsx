@@ -1,6 +1,6 @@
 import React from "react";
-import Card from './subComponents/Card';
-import Title from './subComponents/Title';
+import Card from '../components/Card';
+import Title from '../components/Title';
 
 const Skills = () => {
     return (
