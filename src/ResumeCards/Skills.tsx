@@ -4,7 +4,7 @@ import Title from '../components/Title';
 
 const Skills = () => {
     return (
-        <Card className='h-[50vh]'>
+        <Card className='h-screen'>
             <Title text='Technical Skills' />
         </Card>
     )

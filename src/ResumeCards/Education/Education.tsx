@@ -5,10 +5,10 @@ import Title from '../../components/Title';
 
 const Education = () => {
     return (
-        <Card className='h-[32vh]'>
+        <Card className='h-[50vh]'>
             <>
                 <Title text='Education' />
-                <div className='px-10 md:px-5 py-2 md:py-3 text-center'>
+                <div className='px-10 md:px-5 py-2 md:py-2 xl:py-4 text-center'>
                     <h3 className='font-semibold text-slate-800 underline'>
                         Massachusetts Institute of Technology
                     </h3>
@@ -19,7 +19,7 @@ const Education = () => {
                         View Certificate <FaExternalLinkAlt />
                     </a>     
                 </div>
-                <div className='px-10 md:px-5 py-2 md:py-3 text-center'>
+                <div className='px-10 md:px-4 py-3 md:py-2 xl:py-4 text-center'>
                     <h3 className='font-semibold text-slate-800 underline'>
                         College of Southern Nevada
                     </h3>
