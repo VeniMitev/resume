@@ -2,10 +2,10 @@ import './App.css'
 import Profile             from './ResumeCards/Profile/Profile'
 import WorkExperience      from './ResumeCards/WorkExperience/WorkExperience'
 import Education           from './ResumeCards/Education/Education'
-import VolunteerExperience from './ResumeCards/VolunteerExperience'
-import Skills              from './ResumeCards/Skills'
+import VolunteerExperience from './ResumeCards/VolunteerExperience/VolunteerExperience'
+import Skills              from './ResumeCards/Skills/Skills'
 import About               from './ResumeCards/About/About'
-import Hobbies             from './ResumeCards/Hobbies'
+import Hobbies             from './ResumeCards/Hobbies/Hobbies'
 import Icons from './components/Icons'
 import { useRef } from 'react'
 
@@ -36,13 +36,13 @@ function App() {
                 <div ref={aboutRef} className='row-span-2 col-span-6 drop-shadow-md transition ease-in-out hover:drop-shadow-lg duration-300 order-2 md:order-2'>
                     <About />
                 </div>
-                <div ref={hobbiesRef} className='row-span-2 col-span-3 drop-shadow-md transition ease-in-out hover:drop-shadow-lg duration-300 order-7 md:order-2'>
+                <div ref={hobbiesRef} className='row-span-2 col-span-3 drop-shadow-md transition ease-in-out hover:drop-shadow-lg duration-300 order-6 md:order-2'>
                     <Hobbies />
                 </div> 
                 <div ref={workRef} className='row-span-3 col-span-5 drop-shadow-md transition ease-in-out hover:drop-shadow-lg duration-300 order-4 md:order-3'>
                     <WorkExperience />
                 </div>
-                <div ref={volunteerRef} className='row-span-2 col-span-4 drop-shadow-md transition ease-in-out hover:drop-shadow-lg duration-300 order-6 md:order-4'>
+                <div ref={volunteerRef} className='row-span-2 col-span-4 drop-shadow-md transition ease-in-out hover:drop-shadow-lg duration-300 order-7 md:order-4'>
                     <VolunteerExperience />
                 </div>
                 <div ref={skillsRef}  className='row-span-3 col-span-4 drop-shadow-md transition ease-in-out hover:drop-shadow-lg duration-300 order-3 md:order-5'>

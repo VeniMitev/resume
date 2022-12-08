@@ -73,14 +73,14 @@ const Icons = ({
                     onClick={() => handleClick('education')} 
                     className='h-8 w-8 mx-5 my-10'
                 />
-                <FaGlobeAfrica 
-                    onClick={() => handleClick('volunteer')} 
-                    className='h-8 w-8 mx-5 my-10'
-                />     
                 <FaCameraRetro 
                     onClick={() => handleClick('hobbies')} 
                     className='h-8 w-8 mx-5 my-10'
-                />       
+                />
+                <FaGlobeAfrica 
+                    onClick={() => handleClick('volunteer')} 
+                    className='h-8 w-8 mx-5 my-10'
+                />    
             </div>
         </div>
     )

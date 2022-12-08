@@ -5,7 +5,7 @@ import WorkSkills from './WorkSkills';
 
 const Profile = () => {
     return (
-        <Card className='snap-center h-screen '>
+        <Card className='snap-center h-min py-3'>
             <>
                 <h1 className='flex flex-col items-center pt-8 md:pt-10 xl:pt-16 text-4xl text-slate-800 font-semibold'>
                     Venelin Mitev
