@@ -52,34 +52,34 @@ const Icons = ({
 
     return (
         <div className='h-screen absolute z-10 md:invisible'>
-            <div className='fixed left-0 top-16'> 
+            <div className='fixed left-0 bottom-20 opacity-20 hover:cursor-pointer'> 
                 <FaUser 
                     onClick={() => handleClick('profile')} 
-                    className='h-10 w-10 mx-5 my-10 '
+                    className='h-8 w-8 mx-5 my-10'
                 />
                 <FaRegAddressCard 
                     onClick={() => handleClick('about')} 
-                    className='h-10 w-10 mx-5 my-10 '
+                    className='h-8 w-8 mx-5 my-10'
                 />
                 <FaCode 
                     onClick={() => handleClick('skills')} 
-                    className='h-10 w-10 mx-5 my-10 '
+                    className='h-8 w-8 mx-5 my-10'
                 />
                 <FaBriefcase 
                     onClick={() => handleClick('work')} 
-                    className='h-10 w-10 mx-5 my-10 '
+                    className='h-8 w-8 mx-5 my-10'
                 />
                 <FaBookReader 
                     onClick={() => handleClick('education')} 
-                    className='h-10 w-10 mx-5 my-10 '
+                    className='h-8 w-8 mx-5 my-10'
                 />
                 <FaGlobeAfrica 
                     onClick={() => handleClick('volunteer')} 
-                    className='h-10 w-10 mx-5 my-10 '
+                    className='h-8 w-8 mx-5 my-10'
                 />     
                 <FaCameraRetro 
                     onClick={() => handleClick('hobbies')} 
-                    className='h-10 w-10 mx-5 my-10 '
+                    className='h-8 w-8 mx-5 my-10'
                 />       
             </div>
         </div>
