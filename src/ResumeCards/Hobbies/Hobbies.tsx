@@ -5,7 +5,7 @@ import Title from '../../components/Title';
 
 const Hobbies = () => {
     return (
-        <Card className='h-min py-3 xl:px-16 '>
+        <Card className='h-min py-3 overflow-auto scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-transparent'>
             <>
                 <Title text='Hobbies' />
                 <div className='flex flex-row md:justify-center'>                

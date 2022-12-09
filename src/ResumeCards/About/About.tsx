@@ -4,7 +4,7 @@ import Title from '../../components/Title';
 
 const About = () => {
     return (
-        <Card className='snap-center h- py-3'>
+        <Card className='h-min py-3 overflow-auto scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-transparent'>
             <>
                 <Title text='About Me' />
                 <div className='flex flex-col items-center py-5 md:py-3 xl:py-10 px-12'>

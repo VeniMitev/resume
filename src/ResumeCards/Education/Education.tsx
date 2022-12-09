@@ -5,7 +5,7 @@ import Title from '../../components/Title';
 
 const Education = () => {
     return (
-        <Card className='h-min py-3'>
+        <Card className='h-min py-3 overflow-auto scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-transparent'>
             <>
                 <Title text='Education' />
                 <div className='px-10 md:px-5 py-2 md:py-2 xl:py-4 text-center'>

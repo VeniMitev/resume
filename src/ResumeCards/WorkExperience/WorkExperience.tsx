@@ -15,18 +15,20 @@ const WorkExperience = () => {
                             <p>
                                 Product Manager / Web Developer
                             </p> 
-                            <ul className='pt-2 list-outside ml-4 list-disc'>
+                            <ul className='pt-2 list-outside ml-4 list-disc'>                                  
                                 <li>
                                     Design and develop the company's inhouse invoice management sofware using React, Node.js, and MongoDB
-                                </li>                           
+                                </li>  
+                                <li>
+                                    Manage all of the company's SKU's. 
+                                </li>                         
                                 <li>
                                     Manage the company's website and online store using Magento e-commerce CMS v2.3
                                 </li>
                                 <li>
                                     Supervise warehouse team and operations, including incoming and outgoing shipments
                                 </li>
-                            </ul>
-                            
+                            </ul>                            
                         </div>
                     </div>
                     <div className="grow ">
