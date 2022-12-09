@@ -35,7 +35,7 @@ const Profile = () => {
                 </div>
                 <WorkSkills />
                 <div className='flex flex-col items-center pb-3 md:pb-10 xl:pb-16'>
-                    <a href='https://drive.google.com/file/d/197uHlMz7_CjnvGQQm0ZeSjNyV9_6gERJ/view?usp=sharing' target='_blank' rel="noreferrer" className='flex flex-row items-center gap-4 pt-4 md:pt-7 text-md text-slate-600 hover:text-slate-800'>
+                    <a href='https://drive.google.com/file/d/1iI-EMY7U7dv15tTC5ZDAxeoVyB2I1qfv/view?usp=sharing' target='_blank' rel="noreferrer" className='flex flex-row items-center gap-4 pt-4 md:pt-7 text-md text-slate-600 hover:text-slate-800'>
                         <span className='hover:underline hover:cursor-pointer'>
                             Download Resume in PDF
                         </span>
